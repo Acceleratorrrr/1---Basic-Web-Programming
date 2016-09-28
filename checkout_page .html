@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apple Checkout</title>
+	<link rel="stylesheet" href="checkout_page.css">
+</head>
+<body>
+	<div id="header">
+	<div id="contact">Questions?1,888,862,8818 M-F 7AM - 5PM(Pacific)</div>
+		<div id="checkout">CHECKOUT</div>
+		<div id="welcome">Welcome,Peep!</div>
+		<div id="sign">Not Peep? Sign in with a different acount!</div>
+	</div>
+
+	<div id="nav">
+		<span id="shipping">Shipping info</span>
+		<span id="payment">Payment method</span>
+		<span id="review">Review</span>
+	</div>
+
+	<div id="main">
+		<span>Add a payment method</span>
+		<form action="">
+		<input id="payment-text" type="text" name="payment" placeholder="Payment nickname (option)">
+		<input id="first-name" type="text" name="first_name" placeholder="First name">
+		<input id="surname" type="text" name="surname" placeholder="Surname">
+		<input id="card" type="text" name="credit_card" placeholder="Credit Card Number">
+		<input type="radio" name="card" value="visa">
+		<label for="visa">Visa</label>
+		<input type="radio" name="card" value="master-card">
+		<label for="master-card">Master card</label><br/>
+		<select id="month">
+		<option value="Expiration Month">Expiration Month</option>
+		<option value="Expiration Month">01</option>
+		<option value="Expiration Month">02</option>
+		<option value="Expiration Month">03</option>
+		<option value="Expiration Month">04</option>
+		<option value="Expiration Month">05</option>
+		<option value="Expiration Month">06</option>
+		<option value="Expiration Month">07</option>
+		<option value="Expiration Month">08</option>
+		<option value="Expiration Month">09</option>
+		<option value="Expiration Month">10</option>
+		<option value="Expiration Month">11</option>
+		<option value="Expiration Month">12</option>
+		</select>
+		<select id="year">
+		<option value="Expiration Year">Expiration Year</option>
+		<option value="Expiration Year">2016</option>
+		<option value="Expiration Year">2017</option>
+		<option value="Expiration Year">2018</option>
+		<option value="Expiration Year">2019</option>
+		</select>
+		<input id="cvv" type="text" placeholder="CVV">
+		<input type="checkbox" name="bill" value="billing-address">
+		<label for="bill"> Billing Address Same as Shipping?</label>
+		<input type="button" id="back" value="Back">
+		<input type="button" id="save" value="Save&Continue">
+		</form>
+	</div>
+
+	
+
+</body>
+</html>

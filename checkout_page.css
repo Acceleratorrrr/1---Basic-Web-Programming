@@ -1,0 +1,183 @@
+html
+{
+    font-family: sans-serif;
+
+        -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    position: relative;
+
+    width: auto;
+    height: 110px;
+
+    border-bottom: 1px solid #96959d;
+}
+
+#contact
+{
+    font-size: 12px;
+
+    margin-top: 2px;
+
+    text-align: right;
+
+    color: #666;
+}
+
+#checkout
+{
+    font-size: 30px;
+
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: #666;
+}
+
+#welcome
+{
+    font-size: 20px;
+
+    float: right;
+
+    color: #6cf;
+}
+
+#sign
+{
+    font-size: 12px;
+
+    float: right;
+    clear: both;
+}
+
+#nav
+{
+    height: 50px;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #96959d;
+}
+
+#shipping,
+#payment,
+#review
+{
+    line-height: 50px;
+
+    margin-right: 10px;
+}
+
+#payment
+{
+    color: #6cf;
+}
+
+#review,
+#shipping
+{
+    color: #666;
+}
+
+#main
+{
+    width: 400px;
+    margin: auto auto;
+
+    color: #666;
+}
+
+#payment-text,
+#card,
+#cvv
+{
+    width: 400px;
+    height: 30px;
+    margin: 10px 0;
+
+    color: #666;
+    border-radius: 5px;
+}
+
+#first-name,
+#surname,
+#month,
+#year
+{
+    width: 190px;
+    height: 30px;
+    color: #666;
+    border-radius: 5px;
+}
+
+#month,
+#year
+{
+	margin-top: 10px;
+	background: transparent;
+	color: #666;
+}
+
+#first-name,
+#month
+{
+    margin-right: 5px;
+}
+
+
+#back,
+#save
+{
+    font-size: 15px;
+    line-height: 30px;
+
+    float: left;
+
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 5px;
+}
+
+#back
+{
+    margin-right: 100px;
+
+    border-color: #245580;
+    background-image: -webkit-linear-gradient(top, #337ab7 0%, #265a88 100%);
+    background-image:      -o-linear-gradient(top, #337ab7 0%, #265a88 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
+    background-image:         linear-gradient(to bottom, #337ab7 0%, #265a88 100%);
+    background-repeat: repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+#save
+{
+    border-color: #3e8f3e;
+    background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image:      -o-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641));
+    background-image:         linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+    background-repeat: repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
